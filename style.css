@@ -1,0 +1,102 @@
+/* GENERAL */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+p {
+  color: rgb(85, 85, 85);
+}
+
+/* SECTIONS */
+
+section {
+  padding-top: 4vh;
+  height: 96vh;
+  margin: 0 10rem;
+  box-sizing: border-box;
+  min-height: fit-content;
+}
+
+.section-container {
+  display: flex;
+}
+
+/* PROFILE SECTION */
+
+#profile {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  height: 80vh;
+}
+
+.section__pic-container {
+  display: flex;
+  height: 400px;
+  width: 400px;
+  margin: auto 0;
+}
+
+.section__text {
+  align-self: center;
+  text-align: center;
+}
+
+.section__text p {
+  font-weight: 600;
+}
+
+.section__text__p1 {
+  max-width: 600px;
+  margin: auto;
+  text-align: justify;
+}
+
+.title {
+  font-size: 3rem;
+  text-align: center;
+  height: 80px;
+}
+
+#socials-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  gap: 2rem;
+}
+
+/* ICONS */
+
+.icon {
+  cursor: pointer;
+  height: 2rem;
+}
+
+#info-inf {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+/* FOOTER SECTION */
+
+footer {
+  height: 0;
+  margin: 0;
+}
+
+footer p {
+  text-align: center;
+}
